@@ -1,3 +1,4 @@
+const script = () => {
 // module("About Control Structures (topics/about_control_structures.js)");
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
@@ -33,6 +34,7 @@ test("for in", () => {
 	equal("nameage", result, 'what is the value of result?');
 });
 
+const script = () => {
 test("ternary operator", () => {
 	let fruit = true ? "apple" : "orange";
 	equal("apple", fruit, 'what is the value of fruit?');
@@ -74,3 +76,6 @@ test("null coalescing", () => {
     let result = null || "a value";
     equal("a value", result, 'what is the value of result?');
 });
+}
+}
+module.exports = script

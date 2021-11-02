@@ -1,3 +1,4 @@
+const script = () => {
 // module("About Asserts (topics/about_asserts.js)");
 
 
@@ -16,3 +17,5 @@ test("not ok", () => {
 test("ok", () => {
     assert.equal(2, 1 + 1, 'what will satisfy the equal assertion?');
 })
+}
+module.exports = script

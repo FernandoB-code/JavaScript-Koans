@@ -1,3 +1,4 @@
+const script = () => {
 // module("About Operators (topics/about_operators.js)");
 const { equal } = require('assert')
 const { __, test } = require('../support/koans')
@@ -46,3 +47,6 @@ test("modulus", () => {
   result %= x;
   equal(0, result, "What is the value of result?");
 });
+}
+module.exports = script
+

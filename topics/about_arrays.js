@@ -1,3 +1,4 @@
+const script = () => {
 // module("About Arrays (topics/about_arrays.js)");
 const { equal, deepEqual } = require('assert')
 const { __, test } = require('../support/koans')
@@ -44,4 +45,8 @@ test("queue methods", () => {
 
     equal("third", queue.shift(), 'what will be shifted out first?');
     equal("first", queue.shift(), 'what will be shifted out second?');
+
 });
+}
+module.exports = script
+

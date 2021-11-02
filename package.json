@@ -5,8 +5,8 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node ./",
-		"koans": ""
+		"start": "node ./",		
+    "koans": "node main.js"
   },
   "repository": {
     "type": "git",
@@ -23,3 +23,5 @@
   },
   "homepage": "https://github.com/pipetus/JavaScript-Koans#readme"
 }
+
+
